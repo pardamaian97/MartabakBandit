@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bandit.martabakbanditz.FirstActivity"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="#f7f7f7 "
+                        android:onClick="kacangcoklat"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/kacangcoklat" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:gravity="bottom"
+                                android:text="Martabak Kacang Coklat"
+                                android:textColor="#0d5271 "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/harga_kacangcoklat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="Rp 0"
+                                android:textColor="#ff0109 "
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#f7f7f7 "
+                    android:onClick="keju"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/keju" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="5dp"
+
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:text="Martabak  Keju"
+                            android:textColor="#0d5271 "
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/harga_keju"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="Rp 0"
+                            android:textColor="#ff0109 "
+                            android:textStyle="italic" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#f7f7f7 "
+            android:onClick="coklatkeju"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/coklatkeju" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Martabak Coklat Keju"
+                    android:textColor="#0d5271 "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harga_coklatkeju"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Rp 0"
+                    android:textColor="#ff0109 "
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#f7f7f7 "
+            android:onClick="jagungkeju"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jagungkeju" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Martabak Jagung Keju"
+                    android:textColor="#0d5271 "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harga_jagungkeju"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Rp 0"
+                    android:textColor="#ff0109 "
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#f7f7f7 "
+            android:onClick="jagung"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jagung" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Martabak Jagung"
+                    android:textColor="#0d5271 "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harga_jagung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Rp 0"
+                    android:textColor="#ff0109 "
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#f7f7f7 "
+            android:onClick="jagungcoklat"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jagungcoklat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Martabak Jagung Coklat"
+                    android:textColor="#0d5271 "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harga_jagungcoklat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Rp 0"
+                    android:textColor="#ff0109 "
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#f7f7f7 "
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:onClick="durian"
+                android:src="@drawable/durian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:onClick="durian"
+                    android:text="Martabak Durian"
+                    android:textColor="#0d5271 "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harga_durian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:onClick="durian"
+                    android:text="Rp 0"
+                    android:textColor="#ff0109 "
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
